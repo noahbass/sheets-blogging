@@ -1,0 +1,26 @@
+{
+  "name": "sheets-blogging",
+  "version": "0.0.0",
+  "authors": [
+    "Noah Bass <bassjnoah@gmail.com>"
+  ],
+  "description": "Write your blog on google spreadsheets with thi tiny blogging framework",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-tabletop": "~0.2.1",
+    "angular": "~1.4.3",
+    "tabletop": "~1.4.2",
+    "angular-route": "~1.4.3"
+  }
+}

@@ -1,0 +1,17 @@
+extends layout
+
+block body
+  div
+    h1 Sheets Blog
+
+    div(ng-view)
+
+  script(src='/components/angular/angular.min.js')
+  script(src='/components/angular-route/angular-route.min.js')
+  script(src='/components/tabletop/src/tabletop.js')
+  script(src='/components/angular-tabletop/TabletopProvider.js')
+  script(src='js/app.js')
+  script(src='js/services.js')
+  script(src='js/controllers.js')
+  script(src='js/filters.js')
+  script(src='js/directives.js')
